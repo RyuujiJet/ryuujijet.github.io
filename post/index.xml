@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on RyuujiJet的博客</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on RyuujiJet的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 14 Feb 2020 15:29:05 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Myfirst Blog</title>
+      <link>http://localhost:1313/post/myfirst-blog/</link>
+      <pubDate>Fri, 14 Feb 2020 15:29:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/myfirst-blog/</guid>
+      <description>这是我的第一个hugo-blog，希望我能尽快学好前端</description>
+    </item>
+    
+    <item>
+      <title>如何用 hugo 搭建个人博客</title>
+      <link>http://localhost:1313/post/mysecond-blog/</link>
+      <pubDate>Fri, 14 Feb 2020 15:29:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/mysecond-blog/</guid>
+      <description>一、安装Hugo 1.去Hugo release页面下载适合电脑的Hugo版本； 2.将下载的文件解压。把Hugo.exe放到自定义的目录中（目录</description>
+    </item>
+    
+  </channel>
+</rss>

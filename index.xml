@@ -1,23 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My First Blog</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My First Blog</description>
+    <title>RyuujiJet的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on RyuujiJet的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
+    <language>zh-cn</language>
     <lastBuildDate>Fri, 14 Feb 2020 15:29:05 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Myfirst Blog</title>
-      <link>http://example.org/posts/myfirst-blog/</link>
+      <link>http://localhost:1313/post/myfirst-blog/</link>
       <pubDate>Fri, 14 Feb 2020 15:29:05 +0800</pubDate>
       
-      <guid>http://example.org/posts/myfirst-blog/</guid>
-      <description>这是我的第一个hugo-blog，希望我能尽快学好前端</description>
+      <guid>http://localhost:1313/post/myfirst-blog/</guid>
+      
+        <description>&lt;p&gt;这是我的第一个hugo-blog，希望我能尽快学好前端&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>如何用 hugo 搭建个人博客</title>
+      <link>http://localhost:1313/post/mysecond-blog/</link>
+      <pubDate>Fri, 14 Feb 2020 15:29:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/mysecond-blog/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;一-安装hugo&#34;&gt;一、安装Hugo&lt;/h1&gt;
+
+&lt;p&gt;1.去Hugo release页面下载适合电脑的Hugo版本；&lt;/p&gt;
+
+&lt;p&gt;2.将下载的文件解压。把Hugo.exe放到自定义的目录中（目录尽量避免中文）；&lt;/p&gt;
+
+&lt;p&gt;3.把目录添加到环境变量PATH中；&lt;/p&gt;
+
+&lt;p&gt;4.重启终端，运行hugo version查看版本；若出现版本号，则安装成功。&lt;/p&gt;
+
+&lt;h1 id=&#34;二-快速搭建博客&#34;&gt;二、快速搭建博客&lt;/h1&gt;
+
+&lt;p&gt;1.进入Hugo官网，点击Quick Start快速开始；&lt;/p&gt;
+
+&lt;p&gt;2.从Step 2开始运行命令行，直到Step 7&lt;/p&gt;
+
+&lt;p&gt;①Step 2：hugo new site quickstart（GitHub名字全小写.github.io-creator）。&lt;/p&gt;
+
+&lt;p&gt;②Step 4：用code .打开文件，创建的blog在content文件中；draft为true是草稿，false是可以发布。&lt;/p&gt;
+
+&lt;p&gt;③Step 6：在config.toml修改language为“zh-Hans”&lt;/p&gt;
+
+&lt;p&gt;④Step 7：新建一个终端，运行Hugo，新建了一个public文件。&lt;/p&gt;
+
+&lt;h1 id=&#34;三-将博客上传github&#34;&gt;三、将博客上传Github&lt;/h1&gt;
+
+&lt;p&gt;1.新建文件.gitignore，输入/public/（当前仓库不储存public）；&lt;/p&gt;
+
+&lt;p&gt;2.依次输入命令行：cd public → git init → git add . → git commit；&lt;/p&gt;
+
+&lt;p&gt;3.在GitHub新建，命名必须是name.github.io；&lt;/p&gt;
+
+&lt;p&gt;（在settings的GitHub Pages的source要是master）。&lt;/p&gt;
+
+&lt;h1 id=&#34;四-修改主题&#34;&gt;四、修改主题&lt;/h1&gt;
+
+&lt;p&gt;1.网址在Step 3的themes gohugo.io；&lt;/p&gt;
+
+&lt;p&gt;2.点击选好的主题，点击HomePage；&lt;/p&gt;
+
+&lt;p&gt;3.在Installation中复制命令行；&lt;/p&gt;
+
+&lt;p&gt;4.在博客中，若有theme，需要修改相应的名字；&lt;/p&gt;
+
+&lt;p&gt;5.输入hugo server -D重新启动&lt;/p&gt;
+
+&lt;p&gt;（修改主题在creator根目录中）&lt;/p&gt;
+
+&lt;h1 id=&#34;五-新增博客&#34;&gt;五、新增博客&lt;/h1&gt;
+
+&lt;p&gt;1.Ctrl+C中断上一命令；&lt;/p&gt;
+
+&lt;p&gt;2.依次输入命令行：hugo → cd public/ → git add . → git commit → git push&lt;/p&gt;
+</description>
+      
     </item>
     
   </channel>
