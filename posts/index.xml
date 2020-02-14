@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My First Blog</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My First Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Fri, 14 Feb 2020 15:29:05 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Myfirst Blog</title>
+      <link>http://example.org/posts/myfirst-blog/</link>
+      <pubDate>Fri, 14 Feb 2020 15:29:05 +0800</pubDate>
+      
+      <guid>http://example.org/posts/myfirst-blog/</guid>
+      <description>这是我的第一个hugo-blog，希望我能尽快学好前端</description>
+    </item>
+    
+  </channel>
+</rss>
